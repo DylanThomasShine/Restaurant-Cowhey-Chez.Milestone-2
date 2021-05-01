@@ -45,7 +45,7 @@
   
 .section-intro {
     height: 820px;
-    background-image: url(beef.png);
+    background-image: url(/assets/images/beef.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -237,6 +237,23 @@ a.link-to-book:hover {
     }
   
 }
+
+.line {
+    box-shadow: 0 0 5px 1px black;
+    width: 40%;
+}
+
+.container-2 {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    margin-top: 70px;
+    border: 0;
+    box-shadow: 0 0 15px 4px black;
+    display: block;
+    text-align: center;
+}
+
 
 .social
 {

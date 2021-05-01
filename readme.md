@@ -69,7 +69,7 @@ Interactive elements such as the Contact Form and social media links
 
 ## _Technologies & Languages Used_
 
- ![HTML5 logo](assets/images/html5logo.png)   ![CSS3 logo](assets/images/css3logo.png)
+ ![HTML5 logo](assets/images/html5logo.jpeg)   ![CSS3 logo](assets/images/css3logo.jpeg) ![Javascript logo](assets/images/javascriptlogo.png)
 
 ### **Frameworks, Libraries & Programs Used**
 
@@ -87,7 +87,7 @@ Hover.css was used on the Social Media icons in the footer to add the float tran
 
 [**_Google Fonts:_**](https://fonts.google.com/ "Google Fonts")
 
-Google fonts were used to import the **"Roboto"** font into the style.css file which is used on all pages throughout the project.
+Google fonts were used to import the **"Poppins, Lato and Parisienne"** fonts into the index.css file which is used on all pages throughout the project.
 
 [**_Font Awesome:_**](https://fontawesome.com/ "Font Awesome")
 
@@ -220,6 +220,8 @@ All Images were created by [*Acoustra*](https://www.youtube.com/results?search_q
 All logo's were created by [*Acoustra*](https://www.youtube.com/results?search_query=acoustra "Acoustra on YouTube").
 
 **Acknowledgements**
+
+My friend Tim Curtin for his invaluable assistance in times of difficulty 
 
 My _Mentor Oluwafemi Medale_ for continuous helpful feedback.
 
