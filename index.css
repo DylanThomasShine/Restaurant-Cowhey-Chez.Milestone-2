@@ -45,7 +45,7 @@
   
 .section-intro {
     height: 820px;
-    background-image: url(/assets/images/beef.png);
+    background-image: url(assets/images/beef.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
