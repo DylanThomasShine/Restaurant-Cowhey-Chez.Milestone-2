@@ -3,10 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
+/* ---Nav-bar section---*/
+
 .nav-item {
     text-shadow: 0 0 8px rgb(245, 245, 241);
-    font-size: 1.3em;
-    text-decoration: doubles;
+    font-size: 1.1em;
+    
     
 }
 
@@ -41,8 +43,10 @@
 }
 .nav-flex-row li a:hover{
     background: #E7E7E7;
-}
-  
+}  
+
+/* ---Main picture section---*/
+
 .section-intro {
     height: 820px;
     background-image: url(assets/images/beef.png);
@@ -60,8 +64,7 @@
     font-weight: 700;
 }
   
-.name
-{
+.name {
   color: #fff;
   font-size: 3em;
   text-shadow: 3px 3px white;
@@ -79,6 +82,8 @@
 .link-to-book-wrapper {
     flex: 1;
 }
+
+/* ---About section---*/
   
 .about-section {
     font-family: 'Lato', sans-serif;
@@ -96,8 +101,7 @@
   color: black;
   line-height: 1em;
   text-transform: uppercase;
-  text-shadow: 0 0 3px #FF0000;
-  
+  text-shadow: 0 0 3px #FF0000;  
 }
   
 .link-to-book {
@@ -120,11 +124,11 @@ a.link-to-book:hover {
     margin: auto;
     font-family: 'Poppins', sans-serif;
     font-size: 1.8em;
-    text-transform: uppercase;
-   
-    
+    text-transform: uppercase;   
 }
-  
+
+/* ---Carousel  section---*/
+
 .carousel-inner {
     height: 700px;
 }
@@ -140,7 +144,9 @@ a.link-to-book:hover {
     flex: 1;
     margin: 30px 20px;
 }
-  
+
+/* ---Reservation and information section---*/
+
 .btn.btn-primary {
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
@@ -172,6 +178,8 @@ a.link-to-book:hover {
     display: block;
     text-align: center;
 }
+
+/* ---Media Query section---*/
   
 @media (min-width:577px) and (max-width: 800px) {
   
@@ -238,6 +246,8 @@ a.link-to-book:hover {
   
 }
 
+/* ---Menu section---*/
+
 .line {
     box-shadow: 0 0 5px 1px black;
     width: 40%;
@@ -254,6 +264,7 @@ a.link-to-book:hover {
     text-align: center;
 }
 
+/* ---Footer section---*/
 
 .social
 {
