@@ -268,12 +268,15 @@ a.link-to-book:hover {
 
 .social
 {
-  position: absolute;
+  position: relative;
+  padding-top: 20px;
   z-index: 10;
   bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 0 0 3px #FF0000; 
+  color: black;
 }
 .social li
 {
