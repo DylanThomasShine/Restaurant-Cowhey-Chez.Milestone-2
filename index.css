@@ -254,7 +254,8 @@ a.link-to-book:hover {
 
 .line {
     box-shadow: 0 0 5px 1px lightgrey;
-    width: 40%;
+    width: 100%;
+    text-align: center;
 }
 
 .container-2 {
