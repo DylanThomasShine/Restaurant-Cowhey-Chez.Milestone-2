@@ -65,10 +65,10 @@
 }
   
 .name {
-  color: #fff;
-  font-size: 3em;
-  text-shadow: 3px 3px white;
-  font-family: 'Parisienne', sans-serif;
+    color: black;
+    font-size: 3em;
+    text-shadow: 3px 3px white;
+    font-family: 'Parisienne', sans-serif;
 }
 
 .section-intro header {
@@ -246,10 +246,14 @@ a.link-to-book:hover {
   
 }
 
+.mapouter {
+    margin: 0 auto;
+}
+
 /* ---Menu section---*/
 
 .line {
-    box-shadow: 0 0 5px 1px black;
+    box-shadow: 0 0 5px 1px lightgrey;
     width: 40%;
 }
 
@@ -259,7 +263,7 @@ a.link-to-book:hover {
     padding: 10px;
     margin-top: 70px;
     border: 0;
-    box-shadow: 0 0 15px 4px black;
+    box-shadow: 0 0 15px 4px lightgrey;
     display: block;
     text-align: center;
 }
@@ -298,5 +302,77 @@ a.link-to-book:hover {
 .social li a:hover
 {
   transform: scale(0.9) translateY(-15px);
-  text-shadow: 0 0 3px #FF0000; 
+   
 }
+
+/*----Gallery Section----*/
+
+.main-gallery {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+input {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+#name2 {
+    font-weight: normal;
+    font-size: 70px;
+    position: relative;
+    margin: 40px 0;
+    font-family: 'Parisienne', sans-serif;
+}
+
+.name3::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animate 5s linear infinite;
+    
+}
+
+@keyframes animate {
+    0%{
+        width:100px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+
+.top-content {
+    background-color: rgb(243, 243, 243);
+    width: 90%;
+    margin: 0 auto 20px auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px lightgray;
+}
+
+#h3-2 {
+    height: 100%;
+    background-color: rgb(221, 221, 221);
+    line-height: 60px;
+    padding: 0 50px;
+    color: #fafafa;
+    text-shadow: 0 0 5px 1px  black;
+}
+
+
