@@ -399,15 +399,17 @@ label:hover {
 
 .photo-gallery {
     width: 90%;
-    margin: auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4. 1fr);
     grid-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;  
 }
 
 .pic {
     position: relative;
-    height: 230px;
+    height: 186px;
     border-radius: 10px;
     box-shadow: 4px 4px 6px lightgray;
     cursor: pointer;
@@ -456,8 +458,8 @@ label:hover {
 
 .pic:hover::before{
     margin-top: 0;
-    opacity: 1; --*/
-}
+    opacity: 1; 
+} --*/  
 
 #check1:checked ~ .container .photo-gallery .app{
     opacity: 1;
@@ -481,7 +483,7 @@ label:hover {
     transform: scale(1);
     position: absolute;
     transition: .5s;
-}
+} 
 
 
 
