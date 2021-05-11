@@ -59,7 +59,7 @@ Imagery is important. The large, main image is to show the user how freshly prep
 
 **Wireframes**
 
-Please click the following link to view the wireframes for the project:--------->[Milestone Wireframes](https://github.com/DylanThomasShine/Milestone-1-Acoustra-Band-project/blob/master/assets/wireframes/Acoustra%20Band%20Wireframes.pdf "Dylan's Wireframes")
+Please click the following link to view the wireframes for the project:--------->[Milestone Wireframes](https://github.com/DylanThomasShine/Milestone-1-Acoustra-Band-project/blob/master/assets/wireframes/restaurantwireframe.pdf "Dylan's Wireframes")
 
 **Features**
 
