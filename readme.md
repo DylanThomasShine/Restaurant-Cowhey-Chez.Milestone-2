@@ -73,13 +73,15 @@ Interactive elements such as the Booking Form and social media links
 
 ### **Frameworks, Libraries & Programs Used**
 
+[_**Am Webtech:**_](https://amwebtech.com/ "Am Webtech")
+
 [_**Bootstrap 5.0:**_](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap")
 
 Bootstrap was used to assist with certain aspects for the responsiveness and styling of the website.
 
 [_**Tech Midpoint:**_](https://techmidpoint.com// "Tech Midpoint")
 
-Tech Midpoint waas used to help create the image layout design and image placement.
+Tech Midpoint was used to help create the image layout design and image placement.
 
 [_**W3chools:**_](https://www.w3schools.com/cssref/sel_hover.asp "W3Schools")
 
@@ -137,7 +139,7 @@ All content has been kept on one page to provide easy scrolling and access to ea
 At the bottom of the page there are clear links and icons to the restaurant's social media content.
 On the Make a Booking section, after a form response is filled it will send information to the restaurant. If all content is not filled out correctly a warning will appear to fill in what you have forgotten to do so.
 
-As a First Time Visitor, I want to look for a menu and images of what is on offer. I want to see what kind of variety is available to me before i consider booking. I also want to locate their social media links to see if there are any reviews on social media to determine how the restaurant is rated and what people may have thought of their experience there.
+As a First Time Visitor, I want to look for a menu and images of what is on offer. I want to see what kind of variety is available to me before I consider booking. I also want to locate their social media links to see if there are any reviews on social media to determine how the restaurant is rated and what people may have thought of their experience there.
 
 Once the new visitor has read the About Us and Menu section, they will notice the Gallery section.
 The user can also scroll to the bottom of the page on the site to locate social media links in the footer.
@@ -199,6 +201,7 @@ The full-screen image and all images were created by the developer.
 
 [Bootstrap5:](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap") Bootstrap Library used in certain aspects of the project mainly to create the Contact Form.
 
+[_**Tech Midpoint:**_](https://techmidpoint.com// "Tech Midpoint") coding was used in the development of the image layout design and image placement on the home screen.
 
 
 **Content**
@@ -206,13 +209,10 @@ The full-screen image and all images were created by the developer.
 The food used in the images was produced by the restautrant owner John Cowhey and full permission was given to use these images for this design and purpose.
 All content was written by the developer.
 
-[_**Tech Midpoint:**_](https://techmidpoint.com// "Tech Midpoint") coding was used in the development of the image layout design and image placement.
-
-
+[_**Am Webtech:**_](https://amwebtech.com/ "Am Webtech") The gallery was inspired by Am Webtech
 
 
 **Media**
-
 
 
 All Images were created by the developer. All foods were produced by John Cowhey.
@@ -221,7 +221,9 @@ All logo's were created by the developer.
 
 **Acknowledgements**
 
-My friend [_**Tim Curtin:**_](http://timcurtin.ie/ "Tim Curtin") for his amazing knowledge and sound advice throughout this project.....Legend Tim....
+ [_**John Gleeson:**_](https://www.transactcampus.com/ "John Gleeson") of Transact for all his help and belief.......Much obliged my friend.
+
+[_**Tim Curtin:**_](http://timcurtin.ie/ "Tim Curtin") for his amazing knowledge and sound advice throughout this project.....Legend Tim....
 
 Ulysses Ryan Flynn for his invaluable assistance in allowing me to extend my project deadline and help inform me of choices available to me. Many thanks Uly.....
 
