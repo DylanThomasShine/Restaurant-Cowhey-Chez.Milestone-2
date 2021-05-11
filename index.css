@@ -392,7 +392,7 @@ label {
 }
 
 label:hover {
-    color: black;
+    color: black; 
 }
 
 /*-- Photo Gallery section--*/
@@ -421,7 +421,7 @@ label:hover {
     transition: .5s;
 }
 
-.pic::before {
+/*-- .pic::before {
     content: "FOOD GALLERY";
     position: absolute;
     top: 50%;
@@ -436,7 +436,8 @@ label:hover {
     transition: .3s;
     transition-delay: .2s; 
     z-index: 1;
-}
+    background-color: rgba(0,0,0,.4);
+} 
 
 .pic:after{
     content: "";
@@ -446,9 +447,8 @@ label:hover {
     left: 0;
     border-radius: 10px;
     height: 100%;
-    background-color: rgba(0,0,0,.4);
-    transition: .3s;
-}
+    transition: .3s; 
+} 
 
 .pic:hover::after{
     height: 100%;
@@ -456,31 +456,31 @@ label:hover {
 
 .pic:hover::before{
     margin-top: 0;
-    opacity: 1;
+    opacity: 1; --*/
 }
 
 #check1:checked ~ .container .photo-gallery .app{
     opacity: 1;
     transform: scale(1);
-    position: relative;
+    position: absolute;
     transition: .5s;
 }
 
 #check2:checked ~ .container .photo-gallery .first{
     transform: scale(1);
-    position: relative;
+    position: absolute;
 }
 
 #check3:checked ~ .container .photo-gallery .main{
     transform: scale(1);
     position: absolute;
-    transition: .0s;
+    transition: .5s;
 }
 
 #check4:checked ~ .container .photo-gallery .dessert{
     transform: scale(1);
     position: absolute;
-    transition: .0s;
+    transition: .5s;
 }
 
 
@@ -499,7 +499,7 @@ label:hover {
         border-color: rgba(223, 21, 21, 0.2);
         background-color: rgb(161, 156, 156);
         padding: .5px;
-        border-radius: 4px;
+        border-radius: 50px;
         box-shadow: 3px 3px 5px rgb(54, 54, 54);
 
     }
@@ -508,3 +508,560 @@ label:hover {
         background-color: black;
         
     }
+
+    /*-- Food Gallery Naming section --*/
+
+    #mushrooms:before{
+        content: "STUFFED MUSHROOMS";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4); 
+}
+    #mushrooms:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #mushrooms:hover::after{
+        height: 100%;
+}
+
+    #mushrooms:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
+
+    #cal::before{
+        content: "FRIED CALAMARI";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4);
+}
+    #cal:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #cal:hover::after{
+        height: 100%;
+}
+
+    #cal:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
+
+    #bread::before{
+        content: "FOUR CHEESE GARLIC BREAD";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4);
+}
+    #bread:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #bread:hover::after{
+        height: 100%;
+}
+
+    #bread:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
+
+    #pizza::before{
+        content: "ROMAN-STYLE PIZZA WITH ROASTED CHERRY TOMATOES AND CHEESE";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4);
+}
+    #pizza:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #pizza:hover::after{
+        height: 100%;
+}
+
+    #pizza:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
+
+    #tuna::before{
+        content: "TUNA EMPANADA";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4);
+    }
+    #tuna:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #tuna:hover::after{
+        height: 100%;
+}
+
+    #tuna:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
+
+    #trout::before{
+        content: "SMOKED TROUT CROSTINI WITH GRILLED FENNEL AND RED ONIONS";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4);
+}
+    #trout:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #trout:hover::after{
+        height: 100%;
+}
+
+    #trout:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
+
+    #josh::before{
+        content: "ROGAN JOSH";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4);
+}
+    #josh:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #josh:hover::after{
+        height: 100%;
+}
+
+    #josh:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
+
+    #pork::before{
+        content: "SPICY PORK VINDALOO";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4);
+}
+    #pork:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #pork:hover::after{
+        height: 100%;
+}
+
+    #pork:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
+
+    #chicken::before{
+        content: "ROAST HALF CHICKEN";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4);
+}
+    #chicken:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #chicken:hover::after{
+        height: 100%;
+}
+
+    #chicken:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
+
+    #apple::before{
+        content: "WARM APPLE CRUMBLE";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4);
+}
+    #apple:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #apple:hover::after{
+        height: 100%;
+}
+
+    #apple:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
+
+    #baileys::before{
+        content: "BAILEYS CHOCOLATE CHEESCAKE";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4);
+}
+    #baileys:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #baileys:hover::after{
+        height: 100%;
+}
+
+    #baileys:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
+
+    #pudding::before{
+        content: "BREAD & BUTTER PUDDING";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4);
+}
+    #pudding:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #pudding:hover::after{
+        height: 100%;
+}
+
+    #pudding:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
+
+    #souffle::before{
+        content: "CHOCOLATE SOUFFLE";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4);
+}
+    #souffle:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #souffle:hover::after{
+        height: 100%;
+}
+
+    #souffle:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
+
+    #mess:before{
+        content: "ETON MESS";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4);
+}
+    #mess:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #mess:hover::after{
+        height: 100%;
+}
+
+    #mess:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
+
+    #ice::before{
+        content: "SELECTION OF ICE CREAMS";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: -100px;
+        opacity: 0;
+        transition: .3s;
+        transition-delay: .2s; 
+        z-index: 1;
+        background-color: rgba(0,0,0,.4);
+}
+    #ice:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        transition: .3s;
+}
+
+    #ice:hover::after{
+        height: 100%;
+}
+
+    #ice:hover::before{
+        margin-top: 0;
+        opacity: 1;
+}
