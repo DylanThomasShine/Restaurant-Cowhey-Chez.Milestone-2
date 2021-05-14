@@ -80,6 +80,6 @@ function getNextSlideIndex(currentIdx, lastSlideIdx) {
 // Creating a transition to fade in and out of the pictures 
 
 function updateSlides(slides, currentSlideIdx, previousSlideIdx) {
-    $(slides[previousSlideIdx]).fadeOut(3000);
-    $(slides[currentSlideIdx]).fadeIn(3000);
+    $(slides[previousSlideIdx]).fadeOut(2000);
+    $(slides[currentSlideIdx]).fadeIn(2000);
 }
