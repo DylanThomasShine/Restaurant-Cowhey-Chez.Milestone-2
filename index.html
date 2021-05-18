@@ -113,11 +113,12 @@
                 <h3>
                     Make a booking
                 </h3>
+
                 <form id="reservation-form" class="media-centered" novalidate>
                     <div class="form-group">
                         <p>
-                            Please leave your number we will 
-                            call you back to make a reservation
+                            Please leave your number and email and we will 
+                            contact you back to confirm your reservation.
                         </p>
                         
                         <input type="text" class="form-control" name="customerName" 
@@ -136,6 +137,11 @@
                             placeholder="Enter your Email" required>
                     </div>
                     <div class="form-group">
+                        <input type="date" class="form-control" name="customerDate"
+                            id="customerdate"
+                            placeholder="Enter the date" required>
+                    </div>
+                    <div class="form-group">
                         <input type="number" class="form-control" name="customerSeatCount"
                             id="customerSeatCount"
                             placeholder="How many seats do you require?" required>
@@ -143,7 +149,10 @@
                     <button id="reservation-submit-button" type="submit" class="btn btn-primary">
                         Submit
                     </button>
-                </form>  
+                </form>
+<br>
+                <div id="form-error" style="display:none"></div>
+
             </div>
             <div class="opening-time">
                 <h3>
@@ -154,6 +163,7 @@
                     <span>Friday—Saturday:<br> 10:00 — 23:00 </span>
                     <span>Sunday: 12:00 — 20:00</span>
                 </p>
+                
             </div>
             <div class="contact-address">
                 <h3>

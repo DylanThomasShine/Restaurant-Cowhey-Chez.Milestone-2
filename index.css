@@ -301,6 +301,28 @@ a.link-to-book:hover {
 
 /* ---Reservation and information section---*/
 
+#form-error {
+    height: 30%;
+    background-color: rgb(209, 212, 16);
+    line-height: 30px;
+    padding: 0 10px;
+    color: #e60707;
+    text-shadow: 0 0 5px 1px  black;
+    font-family: 'Aguafina', sans-serif;
+}
+
+#form-error2 {
+    height: 30%;
+    background-color: rgb(5, 5, 5);
+    line-height: 30px;
+    padding: 0 10px;
+    color: #eee7e7;
+    text-shadow: 0 0 5px 1px  black;
+    font-family: 'Lato', sans-serif;
+}
+
+}
+
 .btn.btn-primary {
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
