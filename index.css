@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
-/* ---Nav-bar section---*/
+
 
 .nav-item {
     text-shadow: 0 0 8px rgb(245, 245, 241);
@@ -311,17 +311,7 @@ a.link-to-book:hover {
     font-family: 'Aguafina', sans-serif;
 }
 
-#form-error2 {
-    height: 30%;
-    background-color: rgb(5, 5, 5);
-    line-height: 30px;
-    padding: 0 10px;
-    color: #eee7e7;
-    text-shadow: 0 0 5px 1px  black;
-    font-family: 'Lato', sans-serif;
-}
 
-}
 
 .btn.btn-primary {
     font-family: 'Poppins', sans-serif;
@@ -541,7 +531,7 @@ label:hover {
 /*-- Photo Gallery section--*/
 
 .photo-gallery {
-  width: 90%;
+  width: 92%;
   display: grid; 
   grid-gap: 50px;
   grid-template-columns: auto auto auto;
@@ -549,26 +539,8 @@ label:hover {
   flex-wrap: wrap;
   padding: 10px;
   margin-left: 0 auto; 
-  text-align: center; 
+  justify-content: center;
 }
-
-/*- .pic{ !!!!REMOVE THIS AS IT HAS BEEN RE-WRITTEN !!!!
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 1px;
-  font-size: 30px;
-  text-align: center;
-} -*/
-
-/*- .photo-gallery { !!! REPLACED THIS SECTION WITH DIFFERENT CODE !!!!
-    width: 90%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4. 1fr);
-    grid-gap: 20px;
-    display: flex;
-    flex-wrap: wrap;  
-} --*/
 
 .pic {
     position: relative;
@@ -585,69 +557,6 @@ label:hover {
     border-radius: 10px;
     transition: .5s;
 }
-
-/*-- .pic::before {  !!!!!WONT NEED THESE 8 SECTIONS AS FOOD MENU SELECTION BAR HAS BEEN REMOVED!!!!
-    content: "FOOD GALLERY";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fafafa;
-    font-size: 22px;
-    font-weight: bold;
-    width: 100%;
-    margin-top: -100px;
-    opacity: 0;
-    transition: .3s;
-    transition-delay: .2s; 
-    z-index: 1;
-    background-color: rgba(0,0,0,.4);
-} 
-
-.pic:after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    border-radius: 10px;
-    height: 100%;
-    transition: .3s; 
-} 
-
-.pic:hover::after{
-    height: 100%;
-}
-
-.pic:hover::before{
-    margin-top: 0;
-    opacity: 1; 
-} --*/  
-
-/*-- #check1:checked ~ .container .photo-gallery .app{
-    opacity: 1;
-    transform: scale(1);
-    position: absolute;
-    transition: .5s;
-}
-
-#check2:checked ~ .container .photo-gallery .first{
-    transform: scale(1);
-    position: absolute;
-}
-
-#check3:checked ~ .container .photo-gallery .main{
-    transform: scale(1);
-    position: absolute;
-    transition: .5s;
-}
-
-#check4:checked ~ .container .photo-gallery .dessert{
-    transform: scale(1);
-    position: absolute;
-    transition: .5s;
-} -- */
-
 
 
 /*-- Back to the Top Section---*/
@@ -1005,43 +914,6 @@ label:hover {
 }
 
     #chicken:hover::before{
-        margin-top: 0;
-        opacity: 1;
-}
-
-#filletsteak::before{
-        content: "SUCCULENT FILLET OF STEAK";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-}
-    #filletsteak:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
-}
-
-    #filletsteak:hover::after{
-        height: 100%;
-}
-
-    #filletsteak:hover::before{
         margin-top: 0;
         opacity: 1;
 }

@@ -107,7 +107,7 @@ function submitReservationRequest() {
     console.log('REQUEST SUBMITTED');
 
     setTimeout(() => {
-        $('#form-error').text('Thank you for your reservation, we will be in touch shortly').show();
+        $('#form-error').text('Thank you for your reservation, we will be in touch shortly to confirm your booking').show();
     }, 2000);
 
     setTimeout(() => {
