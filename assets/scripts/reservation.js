@@ -3,7 +3,6 @@ $(document).ready(function() {
     const submitButton = $('#reservation-submit-button');
     setDateInput();
 
-    // grabbing the fields and adding an event listener
     // using arrays to organise the order of the booking form as it is laid out
     // using predicate functions to determine the field element values and regexp to find certain patterns
 
@@ -118,7 +117,7 @@ function submitReservationRequest() {
         .text('Sending Request...')
         .fadeIn(); 
 
-    // Creating a timelimit for the message to the user before it fades out
+    // Creating a timelimit and a message to the user to confirm a successful input before it fades out
 
     setTimeout(() => {
         formStatus
