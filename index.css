@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 
+/* ---Nav Bar section---*/
+
 
 .nav-item {
     text-shadow: 0 0 8px rgb(245, 245, 241);
@@ -127,7 +129,7 @@ a.link-to-book:hover {
     text-transform: uppercase;   
 }
 
-/* ---Carousel  section---*/
+/* ---Carousel section---*/
 
 .carousel-inner {
     height: 700px;
@@ -296,7 +298,6 @@ a.link-to-book:hover {
         margin-top: 0;
         opacity: 1;
 }
-
 
 
 /* ---Reservation and information section---*/
@@ -492,17 +493,6 @@ input {
 }
 
 /*-- Food Gallery Menu section --*/
-
-/*-- .top-content {
-    background-color: rgb(243, 243, 243);
-    width: 90%;
-    margin: 0 auto 20px auto;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: 3px 3px 5px lightgray;
-} --*/
 
 #h3-2 {
     height: 100%;
@@ -1169,40 +1159,3 @@ label:hover {
 }
 
 
-#burger:before{
-        content: "HOMEMADE 5OZ HAMBURGER";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4); 
-        text-align: center;
-}
-    #burger:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
-}
-
-    #burger:hover::after{
-        height: 100%;
-}
-
-    #burger:hover::before{
-        margin-top: 0;
-        opacity: 1;
-}
