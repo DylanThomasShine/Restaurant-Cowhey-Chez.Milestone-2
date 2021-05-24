@@ -503,7 +503,7 @@ input {
     text-shadow: 0 0 5px 1px  black;
 }
 
-label {
+/* label {
     display: inline-block;
     height: 100%;
     margin: 0 20px;
@@ -516,7 +516,7 @@ label {
 
 label:hover {
     color: black; 
-}
+} */
 
 /*-- Photo Gallery section--*/
 
