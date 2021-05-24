@@ -2,8 +2,9 @@ $(document).ready(function() {
 
     const submitButton = $('#reservation-submit-button');
 
-    // grab fields here... and add event listener
-
+    // grabbing the fields and adding an event listener
+    // using arrays to organise the order of the booking form as it is laid out 
+    // using predicate functions to determine the field element values and regexp to find certain patterns
     const fieldValidators = [
         { 
             id: 'customerName', 
@@ -66,6 +67,7 @@ $(document).ready(function() {
         event.preventDefault();
 
         // Clear previous error states
+        // 
         Array.from(document.querySelectorAll('.form-group input')).forEach(formField => {
             console.log(formField);
             $(formField).toggleClass('error', false);
@@ -92,7 +94,8 @@ $(document).ready(function() {
   
 });
 
-/* Validator Functions */
+// Validator Functions 
+// using booleans and patterns to determine the outcome of the user input
 
 function fieldHasEmptyValue(formField) {
     console.log('field', formField.val());
@@ -106,6 +109,8 @@ function noPatternMatch(formField, pattern) {
 function submitReservationRequest() {
     console.log('REQUEST SUBMITTED');
 
+// Creating a timelimit for the message to the user before it fades out
+
     setTimeout(() => {
         $('#form-error').text('Thank you for your reservation, we will be in touch shortly to confirm your booking').show();
     }, 2000);
@@ -115,15 +120,3 @@ function submitReservationRequest() {
     }, 4000);
 }
 
-// $.ajax({
-//     url: 'https://mockbin.org/cowhey-chez/reservations',
-//     method: 'POST',
-//     data: { name: 'test' },
-//     success: function() {
-//             console.log('successfully added order')
-//         },
-
-//         error: function(error) {
-//             console.log('there was an error', error)
-//         }
-// });

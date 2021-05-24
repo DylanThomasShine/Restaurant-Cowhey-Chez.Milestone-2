@@ -29,13 +29,12 @@ $(document).ready(function() {
 
     function navigate(direction) {
 
-        // Stopping the automatic image updates
+    // Stopping the automatic image updates
 
         clearInterval(carouselInterval);
 
         const previousSlideIndex = currentSlideIndex;
-
-        //Setting the direction of the image to determine an increment or a decrement on clicking
+    //Setting the direction of the image to determine an increment or a decrement on clicking
 
         if (direction === PREV) {
             currentSlideIndex = getPreviousSlideIndex(currentSlideIndex, lastSlideIndex);
@@ -47,7 +46,7 @@ $(document).ready(function() {
 
         updateSlides(slides, currentSlideIndex, previousSlideIndex);
 
-        // Restarting the automatic image updates
+    // Restarting the automatic image updates
 
         carouselInterval = initCarouselTimer();
     }
@@ -65,9 +64,9 @@ $(document).ready(function() {
 });
 
 
-//Setting the values of the pictures where they slide from one to the next
-//determining the end or start of the images to either go back to the end 
-//when the start is reached or go to the start when the end is reached
+    //Setting the values of the pictures where they slide from one to the next
+    //determining the end or start of the images to either go back to the end 
+    //when the start is reached or go to the start when the end is reached
 
 function getPreviousSlideIndex(currentIdx, lastSlideIdx) {
     return currentIdx === 0 ? lastSlideIdx : currentIdx - 1;
@@ -77,7 +76,7 @@ function getNextSlideIndex(currentIdx, lastSlideIdx) {
     return currentIdx === lastSlideIdx ? 0 : currentIdx + 1;
 }
 
-// Creating a transition to fade in and out of the pictures 
+    // Creating a transition to fade in and out of the pictures 
 
 function updateSlides(slides, currentSlideIdx, previousSlideIdx) {
     $(slides[previousSlideIdx]).fadeOut(2000);
