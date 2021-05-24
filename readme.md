@@ -47,7 +47,7 @@ ___
 
 **Colour Scheme**
 
-The colours used are very simple indeed. I did not want to take from the images of food or the simple conveying of the message about the restaurant. There is a slight red theme in some of the images.
+The colours used are very simple indeed. I did not want to take from the images of food or the simple conveying of the message about the restaurant. There is information on all of the images when highlited or hovered over.
 
 **Typography**
 
@@ -55,7 +55,7 @@ The Poppins, Aquafina and Lato fonts are used here as they are extremely easy to
 
 **Imagery**
 
-Imagery is important. The large, main image is to show the user how freshly prepared the food is. The carousel below the descriptioin of the restaurant continues to scroll between images of the food.
+Imagery is important. The large, main image is to show the user how freshly prepared the food is. The carousel below the description of the restaurant continues to scroll between images of the food.
 
 **Wireframes**
 
@@ -111,11 +111,17 @@ Balsamiq was used to create the wireframes during the initial design process and
 
 ## _Testing_
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator, W3C CSS Validator Services, Beautify Tools and Esprima were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-[_**W3C Markup Validator**_](https://validator.w3.org/nu/#l169c53 "Dylan's Results") - Results:
+[_**W3C Markup Validator**_](https://validator.w3.org/nu/#l169c53 "Dylan's Results") - Results: 
 
 [_**W3C CSS Validator**_](https://validator.w3.org/nu/#l1c81 "Dylan's Results") - Results:
+
+[_**Esprima**_](https://esprima.org/demo/validate.html "Dylan's Results") - [Carousel javascript validation results](assets/images/esprimacarousel.jpg)
+
+[_**Esprima**_](https://esprima.org/demo/validate.html "Dylan's Results") - [Reservation javascript validation results](assets/images/esprimareservation.jpg)
+
+
 
 
 ___
@@ -199,7 +205,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 The full-screen image and all images were created by the developer. 
 
-[Bootstrap5:](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap") Bootstrap Library used in certain aspects of the project mainly to create the Contact Form.
+[Bootstrap5:](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap") Bootstrap Library used in certain aspects of the project  to aid in creation of the Contact Form.
 
 [_**Tech Midpoint:**_](https://techmidpoint.com// "Tech Midpoint") coding was used in the development of the image layout design and image placement on the home screen.
 
