@@ -534,7 +534,7 @@ label:hover {
 /*-- Photo Gallery section--*/
 
 .photo-gallery {
-  width: 92%;
+  width: 98%;
   display: grid; 
   grid-gap: 50px;
   grid-template-columns: auto auto auto;
@@ -1169,6 +1169,13 @@ label:hover {
 
 .social li a:hover{
   transform: scale(0.9) translateY(-15px);  
+}
+
+#copyright {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
 
 
