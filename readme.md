@@ -115,7 +115,7 @@ The W3C Markup Validator, W3C CSS Validator Services, Beautify Tools and Esprima
 
 [_**W3C Markup Validator**_](https://validator.w3.org/nu/#l169c53 "Dylan's Results") - Results: 
 
-[_**W3C CSS Validator**_](https://validator.w3.org/nu/#l1c81 "Dylan's Results") - Results:
+[_**W3C CSS Validator**_](https://validator.w3.org/nu/#l1c81 "Dylan's Results") - [CSS results](assets/images/cssresult.png)
 
 [_**Esprima**_](https://esprima.org/demo/validate.html "Dylan's Results") - [Carousel javascript validation results](assets/images/esprimacarousel.jpg)
 
