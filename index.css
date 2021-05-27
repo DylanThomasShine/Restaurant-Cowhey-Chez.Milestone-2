@@ -9,15 +9,9 @@
 
 .nav-item {
     text-shadow: 0 0 8px rgb(245, 245, 241);
-    font-size: 1.1em;
-    
-    
+    font-size: 1.1em;    
 }
 
-.nav-item-2 {
-    text-shadow: 0 0 3px rgb(245, 245, 241);
-    font-size: 3em;    
-}
 .nav-flex-row {
     display: flex;
     flex-direction: row;
@@ -49,6 +43,7 @@
 
 /* ---Main picture section---*/
 
+
 .section-intro {
     height: 820px;
     background-image: url(assets/images/beef.png);
@@ -65,10 +60,15 @@
     font-size: 4em;
     font-weight: 700;
 }
+
+.nav-item-2 {
+    text-shadow: 0 0 3px rgb(245, 245, 241);
+    font-size: 2em;    
+}
   
 .name {
     color: black;
-    font-size: 3em;
+    font-size: 4em;
     text-shadow: 3px 3px white;
     font-family: 'Parisienne', sans-serif;
 }
@@ -568,21 +568,22 @@ label:hover {
         position: fixed;
         bottom: 10px;
         float: right;
-        right: 10%;
-        left: 90%;
-        max-width: 50px;
+        right: 15%;
+        left: 85%;
+        max-width: 60px;
         width: 100%;
-        font-size: 20px;
+        font-size: 15px;
         border-color: rgba(223, 21, 21, 0.2);
         background-color: rgb(161, 156, 156);
         padding: .5px;
         border-radius: 50px;
         box-shadow: 3px 3px 5px rgb(54, 54, 54);
+        font-family: 'Lato', sans-serif;
 
     }
 
     #myBtn:hover {
-        background-color: black;
+        opacity: 50%;
         
     }
 
