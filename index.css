@@ -63,7 +63,8 @@
 
 .nav-item-2 {
     text-shadow: 0 0 3px rgb(245, 245, 241);
-    font-size: 2em;    
+    font-size: 2em; 
+     
 }
   
 .name {
@@ -98,12 +99,13 @@
 .text 
 {
   font-family: 'Lato', sans-serif;  
-  font-size: 5em;
+  font-size: 2em;
   font-weight: 800;
   color: black;
   line-height: 1em;
   text-transform: uppercase;
-  text-shadow: 0 0 3px #FF0000;  
+  text-shadow: 0 0 3px #FF0000; 
+  text-align: center; 
 }
   
 .link-to-book {
@@ -513,23 +515,8 @@ input {
     line-height: 60px;
     padding: 0 50px;
     color: #fafafa;
-    text-shadow: 0 0 5px 1px  black;
+   
 }
-
-/* label {
-    display: inline-block;
-    height: 100%;
-    margin: 0 20px;
-    line-height: 60px;
-    font-size: 18px;
-    color: gray;
-    cursor: pointer;
-    transition: color .5s;
-}
-
-label:hover {
-    color: black; 
-} */
 
 /*-- Photo Gallery section--*/
 
@@ -541,7 +528,6 @@ label:hover {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
-  margin-left: 0 auto; 
   justify-content: center;
 }
 
