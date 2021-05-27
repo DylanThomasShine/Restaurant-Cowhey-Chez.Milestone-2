@@ -186,7 +186,7 @@ A large amount of testing was done to ensure that all pages were linking correct
 
 ### **Known Bugs**
 
-The code was tested repeatedley  through [_**W3C Markup Validator**_](https://validator.w3.org/nu/#l169c53).
+The code was tested repeatedley  through [_**W3C Markup Validator**_](https://validator.w3.org/nu/#l169c53) and [_**Esprima Syntax Validator**_](https://esprima.org/demo/validate.html).
 ___
 
 ## _Deployment_
