@@ -75,6 +75,8 @@ Interactive elements such as the Booking Form and social media links
 
 [_**Am Webtech:**_](https://amwebtech.com/ "Am Webtech")
 
+Am Webtech was used to help create the gallery section
+
 [_**Bootstrap 5.0:**_](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap")
 
 Bootstrap was used to assist with certain aspects for the responsiveness and styling of the website.
