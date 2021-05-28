@@ -69,7 +69,7 @@
   
 .name {
     color: black;
-    font-size: 4em;
+    font-size: 2em;
     text-shadow: 3px 3px white;
     font-family: 'Parisienne', sans-serif;
 }
@@ -91,6 +91,7 @@
 .about-section {
     font-family: 'Lato', sans-serif;
     display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: #f3f3f3c0;
     padding: 50px 30px;
@@ -365,6 +366,20 @@ input.error {
     border-color: red;
 }
 
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:282px;
+    width:370px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:282px;
+    width:370px;
+}
+
 /* ---Media Query section---*/
   
 @media (min-width:577px) and (max-width: 800px) {
@@ -552,12 +567,12 @@ input {
 
     #myBtn {
         position: fixed;
+        display: inline-block;
+        text-align: center;
         bottom: 10px;
-        float: right;
         right: 15%;
         left: 85%;
-        max-width: 60px;
-        width: 100%;
+        width: 60px;
         font-size: 15px;
         border-color: rgba(223, 21, 21, 0.2);
         background-color: rgb(161, 156, 156);
