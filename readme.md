@@ -87,9 +87,13 @@ Bootstrap was used to assist with certain aspects for the responsiveness and sty
 
 Tech Midpoint was used to help create the image layout design and image placement.
 
+[**Embed my Map:**](https://www.embedmymap.com/ "Emped My Map") 
+
+Embed My Map helped create the interactive Google Maps section in the webpage.
+
 [_**Hover.css:**_](https://ianlunn.github.io/Hover/ "Hover.css")
 
-Hover.css was used to help create the Social Media icons in the footer to add the float transition while being hovered over.
+Hover.css was used on the Social Media icons in the footer to add the float transition when being hovered over.
 
 [**_Google Fonts:_**](https://fonts.google.com/ "Google Fonts")
 
@@ -212,10 +216,13 @@ The project was deployed to GitHub Pages using the following steps...
 
 The full-screen image and all images were created by the developer. 
 
-[Bootstrap5:](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap") Bootstrap Library used in certain aspects of the project  to aid in creation of the Contact Form.
+
+
+[**Bootstrap5:**](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap") Bootstrap Library used in certain aspects of the project  to aid in creation of the Contact Form.
 
 [_**Tech Midpoint:**_](https://techmidpoint.com// "Tech Midpoint") coding was used in the development of the image layout design and image placement on the home screen.
 
+[**Embed my Map:**](https://www.embedmymap.com/ "Emped My Map") was used to create the Google Maps.
 
 **Content**
 
