@@ -146,7 +146,8 @@ As a First Time Visitor, I want to understand the main purpose of the site and l
 
 Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. The Navigation bar has three simple links offering one word choices. The images on the page scroll automatically to show the user a simple look at the different food options.
 
-The user has two options, click the ABOUT, MENU or GALLERY action buttons or scroll down, both of which will lead to the same place. As soon as the user scrolls or clicks to a link an arrow will appear in the bottom right corner allowing them to click it to return to the top of the page.
+The user has two options, click the ABOUT, MENU or GALLERY action buttons or scroll down, both of which will lead to the same place. 
+The user can also click on the Book a Table button in the main picture to go directly to that section.
 
 As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
@@ -196,7 +197,7 @@ At the bottom of the page their is a footer of which the content is easily accee
 ### **Further Testing**
 
 The Website was tested on Google Chrome in the development tools.
-The website was viewed on a variety of devices such as Desktop and mobile view.
+The website was viewed on a variety of devices such as Desktop and mobile view. It was opened on several different browsers including, Safari, Black Lion Browser, Samsung Internet, Duck Duck Go and Mozilla Firefox.
 A large amount of testing was done to ensure that all pages were linking correctly.
 
 ### **Known Bugs**
@@ -222,11 +223,11 @@ The full-screen image and all images were created by the developer.
 
 
 
-[**Bootstrap5:**](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap") Bootstrap Library used in certain aspects of the project  to aid in creation of the Contact Form.
+[_**Bootstrap5:**_](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap") Bootstrap Library used in certain aspects of the project  to aid in creation of the Contact Form.
 
 [_**Tech Midpoint:**_](https://techmidpoint.com// "Tech Midpoint") coding was used in the development of the image layout design and image placement on the home screen.
 
-[**Embed my Map:**](https://www.embedmymap.com/ "Emped My Map") was used to create the Google Maps.
+[_**Embed my Map:**_](https://www.embedmymap.com/ "Emped My Map") was used to create the Google Maps.
 
 
 **Content**
@@ -256,4 +257,4 @@ Tutor support at [**_Code Institute:_**](https://codeinstitute.net/ "Code Instit
 
 _Neil Kavanagh_ci_ institute tutor and Classroom Co-ordinator again for his incredible input along the journey of my project.
 
-[Slack](https://slack.com/intl/en-ie/ "Slack Community") community for help and advise along the way
+[_**Slack**_](https://slack.com/intl/en-ie/ "Slack Community") community for help and advise along the way
