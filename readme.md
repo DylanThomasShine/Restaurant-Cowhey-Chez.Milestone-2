@@ -43,7 +43,7 @@ The website, on return, should be a pleasant and easy navigational experience ea
 **The Client**
 
 Cowhey Chez is a very well renowned restaurant offering an extensive range of foods with a wide variety of choices. The restaurant are known to cater for all walks of life, of all ages.
-The prices are reasonable, the service is exceptional and the food is sensational. This is what needs to conveyed on the website.
+The prices are reasonable, the service is exceptional and the food is sensational. This is what needs to be conveyed on the website.
 ___
 ## Design
 
@@ -123,15 +123,15 @@ Balsamiq was used to create the wireframes during the initial design process and
 
 ## _Testing_
 
-The W3C Markup Validator, W3C CSS Validator Services, and Esprima were used to validate every page of the project to ensure there were no syntax errors.
+[_**W3C Markup Validator**_](https://validator.w3.org/nu/#l1c81), [_**W3C CSS Validator**_](https://jigsaw.w3.org/css-validator/) and [_**Esprima**_](https://esprima.org/demo/validate.html) were used to validate every page of the project to ensure there were no syntax errors.
 
-[_**W3C HTML Validator**_](https://validator.w3.org/nu/#l1c81 "Dylan's Results") - [HTML results](assets/images/htmlresult.png)
+[HTML Validator results](assets/images/htmlresult.png)
 
-[_**W3C CSS Validator**_](https://validator.w3.org/nu/#l1c81 "Dylan's Results") - [CSS results](assets/images/cssresult.png)
+[CSS results](assets/images/cssresult.png)
 
-[_**Esprima**_](https://esprima.org/demo/validate.html "Dylan's Results") - [Carousel javascript validation results](assets/images/esprimacarousel.jpg)
+[Carousel javascript validation results](assets/images/esprimacarousel.jpg)
 
-[_**Esprima**_](https://esprima.org/demo/validate.html "Dylan's Results") - [Reservation javascript validation results](assets/images/esprimareservation.jpg)
+[Reservation javascript validation results](assets/images/esprimareservation.jpg)
 
 
 
