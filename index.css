@@ -382,8 +382,8 @@ input.error {
 
 /* ---Media Query section---*/
   
-@media (min-width:577px) and (max-width: 800px) {
-  
+@media (min-width:577px) and (max-width: 800px) {   
+
 .section-intro {
     height: 500px;
 }
@@ -404,16 +404,19 @@ input.error {
 }
   
 @media screen and (max-width: 576px) {
+
 .section-intro {
     height: 300px;
+    
 }
 
 .about-section {
     padding: 30px;
 }
 
-.section-intro h1 {
-    font-size: 2em;
+.section-intro h3 {
+    font-size: 1em;
+    text-align: center;
 }
 
 .about-section p,
