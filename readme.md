@@ -61,7 +61,7 @@ Imagery is important. The large main image is to show the user how freshly prepa
 
 **Wireframes**
 
-Please click the following link to view the wireframes for the project:--------->[Milestone Wireframes](/workspace/Milestone-2/assets/wireframes/restaurantwireframe.pdf)
+Please click the following link to view the wireframes for the project:--------->[Milestone Wireframes](https://github.com/DylanThomasShine/Restaurant-Cowhey-Chez.Milestone-2/blob/b88a69631f88f627f32334151dab34cfc2939368/assets/wireframes/restaurantwireframe.pdf)
 
 **Features**
 
@@ -78,6 +78,10 @@ Interactive elements such as the Booking Form, the Carousel, the Map and Social 
 [_**Am Webtech:**_](https://amwebtech.com/ "Am Webtech")
 
 Am Webtech was used to help create the gallery section
+
+[_**RegExr:**_](https://regexr.com/ "RegExr")
+
+RegExr was used to help create pattern code in the reservation.js page to help create the interface in the Booking Form.
 
 [_**Bootstrap 5.0:**_](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap")
 
