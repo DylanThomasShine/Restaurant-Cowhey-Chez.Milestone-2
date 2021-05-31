@@ -127,11 +127,11 @@ Balsamiq was used to create the wireframes during the initial design process and
 
 [HTML Validator results](assets/images/htmlresult.png)
 
-[CSS results](assets/images/cssresult.png)
+[CSS Validator results](assets/images/cssresult.png)
 
-[Carousel javascript validation results](assets/images/esprimacarousel.jpg)
+[Carousel Javascript Validator results](assets/images/esprimacarousel.jpg)
 
-[Reservation javascript validation results](assets/images/esprimareservation.jpg)
+[Reservation Javascript Validator results](assets/images/esprimareservation.jpg)
 
 
 
