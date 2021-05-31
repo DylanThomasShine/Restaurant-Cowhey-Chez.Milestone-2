@@ -107,6 +107,10 @@ Google fonts were used to import the **"Poppins, Lato and Parisienne"** fonts in
 
 Font Awesome was used on the footer social media links to add icons for aesthetic and UX purposes.
 
+[_**The Art of Web**_](https://www.the-art-of-web.com/ "Art of Web")
+
+The Art of Web was used to create the date validator in javascript to prevent inputting an earlier day then the present one. 
+
 [_**Gitpod:**_](https://gitpod.io/workspaces/ "GitPod")
 
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
@@ -227,6 +231,8 @@ The full-screen image and all images were created by the developer.
 [_**Tech Midpoint:**_](https://techmidpoint.com// "Tech Midpoint") coding was used in the development of the image layout design and image placement on the home screen.
 
 [**Embed my Map:**](https://www.embedmymap.com/ "Emped My Map") was used to create the Google Maps.
+
+[_**The Art of Web**_](https://www.the-art-of-web.com/ "Art of Web") was used to help create the date validator in javascript.
 
 **Content**
 
