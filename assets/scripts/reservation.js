@@ -4,7 +4,7 @@ $(document).ready(function() {
     setDateInput();
 
     // using arrays to organise the order of the booking form as it is laid out
-    // using predicate functions to determine the field element values and RegExr to find certain patterns
+    // using predicate functions to determine the field element values and RegEx to find certain patterns
 
     const fieldValidators = [
         { 
