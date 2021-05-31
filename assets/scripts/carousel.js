@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     // Used CONST here as I don't want these values to change 
-    // lexical scoping to determine the timing value for each picture to be assigned before the functiion is carried out
+    // lexical scoping to determine the timing value for each picture to be assigned before the function is carried out
     
     const CAROUSEL_TIME = 7000; 
 

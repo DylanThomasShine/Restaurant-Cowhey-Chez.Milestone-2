@@ -151,155 +151,155 @@ a.link-to-book:hover {
 }
 
 #burger:before{
-        content: "HOMEMADE 5OZ HAMBURGER";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4); 
-        text-align: center;
+    content: "HOMEMADE 5OZ HAMBURGER";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4); 
+    text-align: center;
 }
-    #burger:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
-}
-
-    #burger:hover::after{
-        height: 100%;
+#burger:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #burger:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#burger:hover::after{
+    height: 100%;
+}
+
+#burger:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
 #start:before{
-        content: "TOMATO AND FETA CHEESE ON ITALIAN BREAD";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4); 
-        text-align: center;
+    content: "TOMATO AND FETA CHEESE ON ITALIAN BREAD";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4); 
+    text-align: center;
 }
-    #start:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
-}
-
-    #start:hover::after{
-        height: 100%;
+#start:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #start:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#start:hover::after{
+    height: 100%;
+}
+
+#start:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
 #cheese:before{
-        content: "CHEESEBOARD SELECTION";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4); 
-        text-align: center;
+    content: "CHEESEBOARD SELECTION";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4); 
+    text-align: center;
 }
-    #cheese:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
-}
-
-    #cheese:hover::after{
-        height: 100%;
+#cheese:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #cheese:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#cheese:hover::after{
+    height: 100%;
+}
+
+#cheese:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
 #tbone:before{
-        content: "T-BONE STEAK WITH PEPPERSAUCE & CHERRY TOMATOES";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4); 
-        text-align: center;
+    content: "T-BONE STEAK WITH PEPPERSAUCE & CHERRY TOMATOES";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4); 
+    text-align: center;
 }
-    #tbone:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
-}
-
-    #tbone:hover::after{
-        height: 100%;
+#tbone:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #tbone:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#tbone:hover::after{
+    height: 100%;
+}
+
+#tbone:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
 
@@ -384,67 +384,67 @@ input.error {
   
 @media (min-width:577px) and (max-width: 800px) {
   
-    .section-intro {
-        height: 500px;
-    }
-  
-    .about-section p,
-    .about-section h3 {
-        font-size: 20px;
-    }
-  
-    .carousel-inner {
-        height: auto;
-    }
-  
-    .row-flex {
-        display: flex;
-        flex-direction: column;
-    }
+.section-intro {
+    height: 500px;
+}
+
+.about-section p,
+.about-section h3 {
+    font-size: 20px;
+}
+
+.carousel-inner {
+    height: auto;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: column;
+}
 }
   
 @media screen and (max-width: 576px) {
-    .section-intro {
-        height: 300px;
-    }
-  
-    .about-section {
-        padding: 30px;
-    }
-  
-    .section-intro h1 {
-        font-size: 2em;
-    }
-  
-    .about-section p,
-    .about-section h3 {
-        font-size: 15px;
-    }
-  
-    .carousel-inner {
-        height: auto;
-    }
-  
-    .row-flex {
-        display: flex;
-        flex-direction: column;
-    }
-  
-    .row-flex h3 {
-        font-size: 25px;
-        text-align: center;
-    }
-  
-    .form-group p {
-        font-size: 15px;
-    }
-  
-    .opening-time p span,
-    .contact-adress p span {
-        font-size: 15px;
-        text-align: center;
-    }
-  
+.section-intro {
+    height: 300px;
+}
+
+.about-section {
+    padding: 30px;
+}
+
+.section-intro h1 {
+    font-size: 2em;
+}
+
+.about-section p,
+.about-section h3 {
+    font-size: 15px;
+}
+
+.carousel-inner {
+    height: auto;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-flex h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.form-group p {
+    font-size: 15px;
+}
+
+.opening-time p span,
+.contact-adress p span {
+    font-size: 15px;
+    text-align: center;
+}
+
 }
 
 .mapouter {
@@ -536,15 +536,15 @@ input {
 /*-- Photo Gallery section--*/
 
 .photo-gallery {
-  width: 98%;
-  display: grid; 
-  grid-gap: 50px;
-  grid-template-columns: auto auto auto;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-  justify-content: center;
-}
+    width: 98%;
+    display: grid; 
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    }
 
 .pic {
     position: relative;
@@ -565,612 +565,612 @@ input {
 
 /*-- Back to the Top Section---*/
 
-    #myBtn {
-        position: fixed;
-        display: inline-block;
-        text-align: center;
-        bottom: 10px;
-        right: 15%;
-        left: 85%;
-        width: 60px;
-        font-size: 15px;
-        border-color: rgba(223, 21, 21, 0.2);
-        background-color: rgb(161, 156, 156);
-        padding: .5px;
-        border-radius: 50px;
-        box-shadow: 3px 3px 5px rgb(54, 54, 54);
-        font-family: 'Lato', sans-serif;
+#myBtn {
+    position: fixed;
+    display: inline-block;
+    text-align: center;
+    bottom: 10px;
+    right: 15%;
+    left: 85%;
+    width: 60px;
+    font-size: 15px;
+    border-color: rgba(223, 21, 21, 0.2);
+    background-color: rgb(161, 156, 156);
+    padding: .5px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px rgb(54, 54, 54);
+    font-family: 'Lato', sans-serif;
 
-    }
+}
 
-    #myBtn:hover {
-        opacity: 50%;
-        
-    }
+#myBtn:hover {
+    opacity: 50%;
+    
+}
 
     /*-- Food Gallery Naming & Design section --*/
 
-    #mushrooms:before{
-        content: "STUFFED MUSHROOMS";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4); 
+#mushrooms:before{
+    content: "STUFFED MUSHROOMS";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4); 
 }
-    #mushrooms:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
-}
-
-    #mushrooms:hover::after{
-        height: 100%;
+#mushrooms:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #mushrooms:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#mushrooms:hover::after{
+    height: 100%;
 }
 
-    #cal::before{
-        content: "FRIED CALAMARI";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-}
-    #cal:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
+#mushrooms:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
-    #cal:hover::after{
-        height: 100%;
+#cal::before{
+    content: "FRIED CALAMARI";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+#cal:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #cal:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#cal:hover::after{
+    height: 100%;
 }
 
-    #bread::before{
-        content: "FOUR CHEESE GARLIC BREAD";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-}
-    #bread:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
+#cal:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
-    #bread:hover::after{
-        height: 100%;
+#bread::before{
+    content: "FOUR CHEESE GARLIC BREAD";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+#bread:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #bread:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#bread:hover::after{
+    height: 100%;
 }
 
-    #pizza::before{
-        content: "ROMAN-STYLE PIZZA WITH ROASTED CHERRY TOMATOES AND CHEESE";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-}
-    #pizza:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
+#bread:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
-    #pizza:hover::after{
-        height: 100%;
+#pizza::before{
+    content: "ROMAN-STYLE PIZZA WITH ROASTED CHERRY TOMATOES AND CHEESE";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+#pizza:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #pizza:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#pizza:hover::after{
+    height: 100%;
 }
 
-    #tuna::before{
-        content: "TUNA EMPANADA";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-    }
-    #tuna:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
+#pizza:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
-    #tuna:hover::after{
-        height: 100%;
+#tuna::before{
+    content: "TUNA EMPANADA";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+#tuna:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #tuna:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#tuna:hover::after{
+    height: 100%;
 }
 
-    #trout::before{
-        content: "SMOKED TROUT CROSTINI WITH GRILLED FENNEL AND RED ONIONS";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-}
-    #trout:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
+#tuna:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
-    #trout:hover::after{
-        height: 100%;
+#trout::before{
+    content: "SMOKED TROUT CROSTINI WITH GRILLED FENNEL AND RED ONIONS";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+#trout:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #trout:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#trout:hover::after{
+    height: 100%;
 }
 
-    #josh::before{
-        content: "ROGAN JOSH";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-}
-    #josh:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
+#trout:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
-    #josh:hover::after{
-        height: 100%;
+#josh::before{
+    content: "ROGAN JOSH";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+#josh:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #josh:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#josh:hover::after{
+    height: 100%;
 }
 
-    #pork::before{
-        content: "SPICY PORK VINDALOO";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-}
-    #pork:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
+#josh:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
-    #pork:hover::after{
-        height: 100%;
+#pork::before{
+    content: "SPICY PORK VINDALOO";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+#pork:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #pork:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#pork:hover::after{
+    height: 100%;
 }
 
-    #chicken::before{
-        content: "ROAST HALF CHICKEN";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-}
-    #chicken:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
+#pork:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
-    #chicken:hover::after{
-        height: 100%;
+#chicken::before{
+    content: "ROAST HALF CHICKEN";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+#chicken:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #chicken:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#chicken:hover::after{
+    height: 100%;
 }
 
-    #apple::before{
-        content: "WARM APPLE CRUMBLE";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-}
-    #apple:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
+#chicken:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
-    #apple:hover::after{
-        height: 100%;
+#apple::before{
+    content: "WARM APPLE CRUMBLE";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+#apple:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #apple:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#apple:hover::after{
+    height: 100%;
 }
 
-    #baileys::before{
-        content: "BAILEYS CHOCOLATE CHEESCAKE";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-}
-    #baileys:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
+#apple:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
-    #baileys:hover::after{
-        height: 100%;
+#baileys::before{
+    content: "BAILEYS CHOCOLATE CHEESCAKE";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+#baileys:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #baileys:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#baileys:hover::after{
+    height: 100%;
 }
 
-    #pudding::before{
-        content: "BREAD & BUTTER PUDDING";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-}
-    #pudding:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
+#baileys:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
-    #pudding:hover::after{
-        height: 100%;
+#pudding::before{
+    content: "BREAD & BUTTER PUDDING";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+#pudding:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #pudding:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#pudding:hover::after{
+    height: 100%;
 }
 
-    #souffle::before{
-        content: "CHOCOLATE SOUFFLE";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-}
-    #souffle:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
+#pudding:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
-    #souffle:hover::after{
-        height: 100%;
+#souffle::before{
+    content: "CHOCOLATE SOUFFLE";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+#souffle:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #souffle:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#souffle:hover::after{
+    height: 100%;
 }
 
-    #mess:before{
-        content: "ETON MESS";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-}
-    #mess:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
+#souffle:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
-    #mess:hover::after{
-        height: 100%;
+#mess:before{
+    content: "ETON MESS";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+#mess:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #mess:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#mess:hover::after{
+    height: 100%;
 }
 
-    #ice::before{
-        content: "SELECTION OF ICE CREAMS";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fafafa;
-        font-size: 22px;
-        font-weight: bold;
-        width: 100%;
-        margin-top: -100px;
-        opacity: 0;
-        transition: .3s;
-        transition-delay: .2s; 
-        z-index: 1;
-        background-color: rgba(0,0,0,.4);
-}
-    #ice:after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        border-radius: 10px;
-        height: 100%;
-        transition: .3s;
+#mess:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
-    #ice:hover::after{
-        height: 100%;
+#ice::before{
+    content: "SELECTION OF ICE CREAMS";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s; 
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+#ice:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
 }
 
-    #ice:hover::before{
-        margin-top: 0;
-        opacity: 1;
+#ice:hover::after{
+    height: 100%;
+}
+
+#ice:hover::before{
+    margin-top: 0;
+    opacity: 1;
 }
 
 /* ---Footer section---*/
 
 .social{
-  position: relative;
-  padding-top: 40px;
-  z-index: 10;
-  bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;   
-}
+    position: relative;
+    padding-top: 40px;
+    z-index: 10;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    }
 
 .social li{
-  list-style: none;
+    list-style: none;
 }
 
 .social li a{
-  display: inline-block;
-  margin-right: 20px;
-  transform: scale(0.9);
-  transition: 0.5s;
-  color:black; 
+    display: inline-block;
+    margin-right: 20px;
+    transform: scale(0.9);
+    transition: 0.5s;
+    color:black; 
 }
 
 .social li a:hover{
-  transform: scale(0.9) translateY(-15px);  
+    transform: scale(0.9) translateY(-15px);  
 }
 
 #copyright {

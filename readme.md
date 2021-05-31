@@ -17,9 +17,9 @@ As a First Time Visitor, I want to be able to undertand at a glimpse how the sit
 
 **Returning Visitor Goals**
 
-As a Returning Visitor, I want to easily navigate the site and find exactly what I'm lookiing for.
+As a Returning Visitor, I want to easily navigate the site and find exactly what I'm looking for.
 
-As a Returning Visitor, I want to find the be able to easliy confirm a booking.
+As a Returning Visitor, I want to be able to easliy confirm a booking.
 
 As a Returning Visitor, I want to see is there anymore information I may find out about the restaurant.
 
@@ -29,18 +29,20 @@ As a Returning Visitor, I want to be able to locate the restaurant should i deci
 
 As a Frequent User, I want to check to see if there are any newly added dishes to their menu.
 
-
 As a Frequent User, I want to check to see if there are any new offers for regular customers.
 
 As a Frequent User, I want to check for any  updates and/or changes to the prices.
 
+**End Goal**
+
 This webpage is designed to be effective and efficient in providing the user with a simple and easy way to find something to eat.
-The site will provide a very quick and easy interface to contact and communicate with the restaurant.
+The site will provide a very quick and sufficent interface to contact and communicate with the restaurant.
 All the information they need from menu choices, prices, contact and booking a table as well as links to social media will all appear on the first page and grab their attention immediately.
+The website, on return, should be a pleasant and easy navigational experience easily finding what it is they user came for.
 
 **The Client**
 
-Cowhey Chez is a very well renowned restaurant offering an extensive range of foods with a wide variety of choices. The restaurant are know to cater for all walks of life of all ages.
+Cowhey Chez is a very well renowned restaurant offering an extensive range of foods with a wide variety of choices. The restaurant are known to cater for all walks of life, of all ages.
 The prices are reasonable, the service is exceptional and the food is sensational. This is what needs to conveyed on the website.
 ___
 ## Design
@@ -55,7 +57,7 @@ The Poppins, Aquafina and Lato fonts are used here as they are extremely easy to
 
 **Imagery**
 
-Imagery is important. The large, main image is to show the user how freshly prepared the food is. The carousel below the description of the restaurant continues to scroll between images of the food.
+Imagery is important. The large main image is to show the user how freshly prepared the food is. The carousel below the description of the restaurant continues to scroll between images of the food to convey to the user the different styles of foods available.
 
 **Wireframes**
 
@@ -65,7 +67,7 @@ Please click the following link to view the wireframes for the project:---------
 
 Responsive on all device sizes
 
-Interactive elements such as the Booking Form and social media links
+Interactive elements such as the Booking Form, the Carousel, the Map and Social Media links
 
 ## _Technologies & Languages Used_
 
@@ -85,9 +87,9 @@ Bootstrap was used to assist with certain aspects for the responsiveness and sty
 
 Tech Midpoint was used to help create the image layout design and image placement.
 
-[_**W3chools:**_](https://www.w3schools.com/cssref/sel_hover.asp "W3Schools")
+[_**Hover.css:**_](https://ianlunn.github.io/Hover/ "Hover.css")
 
-Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+Hover.css was used to help create the Social Media icons in the footer to add the float transition while being hovered over.
 
 [**_Google Fonts:_**](https://fonts.google.com/ "Google Fonts")
 
@@ -113,9 +115,9 @@ Balsamiq was used to create the wireframes during the initial design process and
 
 ## _Testing_
 
-The W3C Markup Validator, W3C CSS Validator Services, Beautify Tools and Esprima were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator, W3C CSS Validator Services, and Esprima were used to validate every page of the project to ensure there were no syntax errors.
 
-[_**W3C Markup Validator**_](https://validator.w3.org/nu/#l169c53 "Dylan's Results") - Results: 
+[_**W3C HTML Validator**_](https://validator.w3.org/nu/#l1c81 "Dylan's Results") - [HTML results](assets/images/htmlresult.png)
 
 [_**W3C CSS Validator**_](https://validator.w3.org/nu/#l1c81 "Dylan's Results") - [CSS results](assets/images/cssresult.png)
 
@@ -141,13 +143,15 @@ The user has two options, click the ABOUT, MENU or GALLERY action buttons or scr
 As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
 The site has been designed to be user friendly. At the top of the page there is a clean navigation bar, each link describes what page they will end up at.
-The Navbar vanishes upon scrolling or clicking to the desired content but an arrow appears immediatley to allow a link to return to the top of the page for menu selection..
+The Navbar vanishes upon scrolling or clicking to the desired content but button appears immediatley with the word "Top" to allow a link to return to the top of the page for menu selection.
 All content has been kept on one page to provide easy scrolling and access to each content. Since it was only three different pages of information it was a lot easier to keep them together and provide links to each part of the restaurant's content.
 
 At the bottom of the page there are clear links and icons to the restaurant's social media content.
-On the Make a Booking section, after a form response is filled it will send information to the restaurant. If all content is not filled out correctly a warning will appear to fill in what you have forgotten to do so.
+On the Make a Booking section, after a form response is filled, it will send information to the restaurant. 
+If all content is not filled out correctly a warning will appear to fill in what you have forgotten to do so. When all information has been inputted to the booking form and the user hits "SUBMIT"
+a brief mesage will appear to notify the user that the form is sending their request and a final message will then appear to let the user know that they were succesful in completing the form. The form will then reset itself after 10 seconds.
 
-As a First Time Visitor, I want to look for a menu and images of what is on offer. I want to see what kind of variety is available to me before I consider booking. I also want to locate their social media links to see if there are any reviews on social media to determine how the restaurant is rated and what people may have thought of their experience there.
+As a First Time Visitor, I want to look for a menu and images of what is on offer. I want to see what kind of variety is available to me before I consider booking. I also want to locate their social media links to see if there are any reviews to determine how the restaurant is rated and what people may have thought of their experience there.
 
 Once the new visitor has read the About Us and Menu section, they will notice the Gallery section.
 The user can also scroll to the bottom of the page on the site to locate social media links in the footer.
@@ -157,11 +161,12 @@ As a Returning Visitor, I want to find any new food content they may have added 
 
 As a Returning Visitor, I want to find any updated reviews or ratings recently added to their social media pages..
 
+As a Returning Visitor, I want to be able to easily handle a booking.
+
 The navigation bar clearly highlights the "About" Page.
 After a brief description they can fill out the form on the page to make a booking.
 The footer contains links to the restaurant's [Facebook](https://www.facebook.com "Cowhey Chez on Facebook"), [Twitter](https://twitter.com "Cowhey Chez on Twitter") and  [Instagram](https://www.instagram.com/ "Cowhey Chez Instagram Posts") pages.
 Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-The Send button is set up to automatically open up your email app and autofill there email address in the "To" section.
 
 As a Returning Visitor, I want to find the social media links to be able to be kept informed of any new information the restaurant can offer.
 
@@ -236,8 +241,6 @@ All logo's were created by the developer.
 [_**Ulysses Ryan Flynn:**_](https://www.facebook.com/ulysses.ryanflynn/ "Ulysses Ryan Flynn") for his invaluable assistance in allowing me to extend my project deadline and help inform me of choices available to me. Many thanks Uly.....
 
 Tutor support at [**_Code Institute:_**](https://codeinstitute.net/ "Code Institute") for their support.
-
-_Cormac_ci_ code institude tutor and Classroom Co-ordinator for his help and extremely vital support.
 
 _Neil Kavanagh_ci_ institute tutor and Classroom Co-ordinator again for his incredible input along the journey of my project.
 
